@@ -28,14 +28,3 @@ To run this game, you need:
 ```bash
 python game_with_gui.py
 
----
-
-# 🧠 Algorithm  
-
-The AI's logic is based on the Minimax Algorithm, a recursive search algorithm used in decision-making and game theory. The AI evaluates every possible move on the board and assigns a score to each one:  
-
-- A winning move for the AI gets a high score.  
-- A winning move for the human player gets a low score (negative).  
-- A draw gets a neutral score.  
-
-The AI then chooses the move that maximizes its score, assuming the human player will always play optimally to minimize it. To optimize this process and reduce the number of calculations, Alpha-Beta Pruning is used to ignore branches of the game tree that will not affect the final decision.  
